@@ -1,16 +1,16 @@
 
 x86 static:
 make LINKTYPE=static
-make install PREFIX=/data2/ngu/work/test/libv4l/x86_64_static LINKTYPE=static 
+make install PREFIX=/home/gunianfu/work/test/libv4l/x86_64_static LINKTYPE=static 
 
 x86 share:
 make
-make install PREFIX=/data2/ngu/work/test/libv4l/x86_64
+make install PREFIX=/home/gunianfu/work/test/libv4l/x86_64
 
 arm static:
-make CC=arm-none-linux-gnueabi-gcc LINKTYPE=static
-make install CC=arm-none-linux-gnueabi-gcc PREFIX=/data2/ngu/work/test/libv4l/arm_static LINKTYPE=static
+make CC=/home/gunianfu/bin/arm-2014.05/bin/arm-none-linux-gnueabi-gcc LINKTYPE=static
+make install CC=/home/gunianfu/bin/arm-2014.05/bin/arm-none-linux-gnueabi-gcc PREFIX=/home/gunianfu/work/test/libv4l/arm_static LINKTYPE=static
 
 arm share:
-make CC=arm-none-linux-gnueabi-gcc 
-make install CC=arm-none-linux-gnueabi-gcc PREFIX=/data2/ngu/work/test/libv4l/arm
+make CC=/home/gunianfu/bin/arm-2014.05/bin/arm-none-linux-gnueabi-gcc
+make install CC=/home/gunianfu/bin/arm-2014.05/bin/arm-none-linux-gnueabi-gcc PREFIX=/home/gunianfu/work/test/libv4l/arm
